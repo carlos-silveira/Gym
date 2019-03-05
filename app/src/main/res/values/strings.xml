@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Effort Gym</string>
+    <string name="bTitle1">Login with Facebook</string>
+    <string name="bTitle2">Login with Google</string>
+</resources>
