@@ -1,5 +1,6 @@
 package com.example.gym;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.LinearGradient;
 import android.graphics.Shader;
@@ -34,5 +35,6 @@ public class MainActivity extends AppCompatActivity {
                         Color.parseColor("#8446CC"),
                 },null,Shader.TileMode.CLAMP);
         t1.getPaint().setShader(textShader);
+        startActivity(new Intent(MainActivity.this,content_menu.class));
     }
 }
